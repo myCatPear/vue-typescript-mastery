@@ -14,7 +14,7 @@ type DataShape = {
 
 const filterText = ref('')
 
-const dishList = ref([
+const dishList = ref<Dish[]>([
   {
     id: '7d9f3f17-964a-4e82-98e5-ecbba4d709a1',
     name: 'Ghost Pepper Poppers',
